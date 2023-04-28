@@ -22,7 +22,7 @@ export default function form_BMI(props) {
     <>
       <h2>BMI form</h2>
       <h3>Put your basic info in this form.</h3>
-      <p>It doesn't bite. And maybe you also shouldn't do it so often to all those sandwitches? Or maybe you are in a great shape and just want to have fun with this form? Come on, check it out. I've spent some time researching it.</p>
+      <p>It doesn&apos;t bite. And maybe you also shouldn&apos;t do it so often to all those sandwitches? Or maybe you are in a great shape and just want to have fun with this form? Come on, check it out. I&apos;ve spent some time researching it.</p>
       <form onSubmit={submitForm} className={styles.form_basic_info}>
         <label htmlFor="age">Age:</label>
         <input type="number" id="form-age" name="age" />

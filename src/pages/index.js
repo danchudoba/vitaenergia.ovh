@@ -80,7 +80,7 @@ export default function Home() {
           <h2>
             So here is how to eat properly. Based on proper research approved by healthcare institutions and scientists knowledge. Everyting is based on proper sources with bibliography of publicly available links.
           </h2>
-          <p>This app is simple and doesn't weight too much. If you also don't want to weight too much than why not to see what I got here for ya. All the basic facts about proper nutrition, calculators and other stuff. Every journey begins with one step. And, well, it seems you have to do some steps, because it burns calories, ya know?</p>
+          <p>This app is simple and doesn&apos;t weight too much. If you also don&apos;t want to weight too much than why not to see what I got here for ya. All the basic facts about proper nutrition, calculators and other stuff. Every journey begins with one step. And, well, it seems you have to do some steps, because it burns calories, ya know? Didn&apos;t you want to get in a better shape? Than don&apos;t hesitate and check your BMI.</p>
           <div>
             <Form_BMI {...basicInfoForm} handleBasicInfoForm = {handleBasicInfoForm}/>
             <Calculate {...basicInfoForm} handleBasicInfoForm = {handleBasicInfoForm}/>
